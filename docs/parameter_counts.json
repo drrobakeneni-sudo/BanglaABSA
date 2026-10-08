@@ -1,0 +1,15 @@
+{
+  "status": "Instantiated on PyTorch meta device from verified backbone config; no pretrained weights or training",
+  "counts": {
+    "m4": 132420937,
+    "m5": 146173257,
+    "stacking_mlp": 462729,
+    "m6_total": 279056923
+  },
+  "paper_reported_millions": {
+    "m4": 118.42,
+    "m5": 142.06,
+    "m6": 260.94
+  },
+  "reason_for_difference": "Unspecified original layer dimensions; reconstruction choices are not tuned to reported counts"
+}

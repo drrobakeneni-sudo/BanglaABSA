@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: "BanglaABSA: a transparent reconstruction of multi-aspect sentiment experiments"
+message: "Cite the software version used and the supplied manuscript; this implementation is reconstructed, not original author code."
+type: software
+version: 0.1.0
+repository-code: "https://github.com/drrobakeneni-sudo/BanglaABSA"
+authors:
+  - name: "drrobakeneni-sudo"
+preferred-citation:
+  type: unpublished
+  title: "Aspect Aware Ensemble Learning for Multi Aspect Sentiment Classification in E Commerce Reviews"
+  authors:
+    - family-names: Bakhsh
+      given-names: Mohammed Majid
+    - family-names: Biplob
+      given-names: Md Yousuf
+    - family-names: Faysal
+      given-names: Sheikh Md
+    - family-names: Acharjee
+      given-names: Sudipta
+    - family-names: Hossain
+      given-names: Md Mamun
+    - family-names: Hossain
+      given-names: Md Rayhan
+    - family-names: Karim
+      given-names: Farhana
+    - family-names: Keneni
+      given-names: Roba
+  notes: "Supplied manuscript; publication status and DOI were not provided."

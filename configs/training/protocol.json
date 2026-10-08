@@ -1,0 +1,25 @@
+{
+  "proposed_seeds": [
+    17,
+    29,
+    43,
+    71,
+    101
+  ],
+  "outer_cv_folds": 5,
+  "outer_test_excluded": true,
+  "validation_subsets": {
+    "weight_fit": 0.25,
+    "meta_train": 0.5,
+    "meta_validation": 0.25
+  },
+  "historical_environment": {
+    "python": "3.11.6",
+    "torch": "2.2.1",
+    "cuda": "12.1",
+    "transformers": "4.40.0",
+    "os": "Ubuntu 22.04",
+    "gpu": "A100 80 GB"
+  },
+  "provenance": "New stacking partitions; paper does not specify original protocol"
+}

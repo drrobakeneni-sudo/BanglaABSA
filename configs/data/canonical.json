@@ -1,0 +1,27 @@
+{
+  "aspect_order": [
+    "Product",
+    "Shop",
+    "Transport"
+  ],
+  "sentiment_order": [
+    "Negative",
+    "Neutral",
+    "Positive"
+  ],
+  "missing_label": null,
+  "reconstruction_ratios": {
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15
+  },
+  "length_filter": {
+    "min": 5,
+    "max": 256,
+    "unit": "whitespace words (reconstructed)"
+  },
+  "grouping": [
+    "normalized/transliterated duplicate text",
+    "explicit group_id"
+  ]
+}

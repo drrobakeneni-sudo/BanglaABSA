@@ -1,0 +1,10 @@
+# Third-party notices
+
+This release contains newly written Python implementations and authored synthetic fixtures. It does not vendor manuscript content, model weights, review corpora, or third-party implementation files. The owner has not chosen a license for the new source code. Referencing another implementation does not change its license or grant additional rights to its assets.
+
+- [BanglaBERT / BanglishBERT](https://github.com/csebuetnlp/banglabert): the official repository restricts its content to noncommercial research under CC BY-NC-SA 4.0. Cite Bhattacharjee et al., *BanglaBERT: Language Model Pretraining and Benchmarks for Low-Resource Language Understanding Evaluation in Bangla*, Findings of NAACL 2022. The code uses `AutoModel` for the ELECTRA architecture. Obtain and use pretrained resources under their own terms.
+- [fastText vectors](https://fasttext.cc/docs/en/crawl-vectors.html): CC BY-SA 3.0; cite Grave et al., *Learning Word Vectors for 157 Languages*, LREC 2018. No vector files are bundled.
+- mBERT official model card declares Apache-2.0. XLM-R and mDeBERTa model cards declare MIT. Exact checkpoint IDs/revisions and metadata are in `docs/checkpoint_provenance.json`; consult each upstream model card before use.
+- The separate [Mendeley dataset](https://data.mendeley.com/datasets/n4n5y34p3s/1) declares CC BY 4.0. Credit Md Nurnabi Shakil and Md. Ashraful Islam Talukder and DOI 10.17632/n4n5y34p3s.1 when using it. No dataset contents are distributed here.
+- [ABSA-PyTorch](https://github.com/songyouwei/ABSA-PyTorch) and the original papers informed method interpretation. Their source headers retain their authors' notices. This repository independently implements documented category adaptations rather than copying their source files.
+- Python dependencies retain upstream licenses: PyTorch, Transformers, NumPy/SciPy, scikit-learn, XGBoost, skops, Matplotlib, safetensors, SentencePiece, and test/lint tools. Installation retrieves those packages from their distributions; they are not relicensed by this repository.

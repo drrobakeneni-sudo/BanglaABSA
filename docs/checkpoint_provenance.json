@@ -1,0 +1,44 @@
+{
+  "csebuetnlp/banglabert": {
+    "revision": "9ce791f330578f50da6bc52b54205166fb5d1c8c",
+    "model_type": "electra",
+    "width": 768,
+    "license": null
+  },
+  "csebuetnlp/banglishbert": {
+    "revision": "88f2777acd65160b2a6c07e5ffef2d232daadf87",
+    "model_type": "electra",
+    "width": 768,
+    "license": null
+  },
+  "csebuetnlp/banglabert_large": {
+    "revision": "a64fb146d81ec4d7f8838b85e084b0c6a325a22f",
+    "model_type": "electra",
+    "width": 1024,
+    "license": null
+  },
+  "google-bert/bert-base-multilingual-cased": {
+    "revision": "3f076fdb1ab68d5b2880cb87a0886f315b8146f8",
+    "model_type": "bert",
+    "width": 768,
+    "license": "apache-2.0"
+  },
+  "FacebookAI/xlm-roberta-base": {
+    "revision": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089",
+    "model_type": "xlm-roberta",
+    "width": 768,
+    "license": "mit"
+  },
+  "FacebookAI/xlm-roberta-large": {
+    "revision": "c23d21b0620b635a76227c604d44e43a9f0ee389",
+    "model_type": "xlm-roberta",
+    "width": 1024,
+    "license": "mit"
+  },
+  "microsoft/mdeberta-v3-base": {
+    "revision": "a0484667b22365f84929a935b5e50a51f71f159d",
+    "model_type": "deberta-v2",
+    "width": 768,
+    "license": "mit"
+  }
+}

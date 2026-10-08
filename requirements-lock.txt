@@ -1,0 +1,16 @@
+# Tested direct dependency pins; not a hashed transitive lock.
+# CPU CI installs the matching torch wheel from the official PyTorch CPU index first.
+numpy==1.26.4
+scipy==1.15.3
+scikit-learn==1.7.2
+torch==2.13.0
+transformers==4.43.4
+safetensors==0.7.0
+xgboost==3.2.0
+skops==0.16.0
+matplotlib==3.10.8
+sentencepiece==0.2.1
+pytest==9.0.3
+pytest-cov==7.1.0
+ruff==0.16.10
+krippendorff==0.8.2
